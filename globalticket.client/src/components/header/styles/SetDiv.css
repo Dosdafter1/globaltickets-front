@@ -1,0 +1,50 @@
+.setdiv {
+    z-index: 10;
+    position: absolute;
+    border: 1px solid #F07B6A ;
+    border-radius: 9px;
+    overflow: hidden;
+    top: 13vh;
+    background-color: white;
+}
+.setlang {
+    width: 103px;
+    left: 75vw;
+}
+.setprofile {
+    width: 187px;
+    left: 84vw;
+    border-radius: 15px;
+}
+.setlang p{
+    font-family: Fixel Display Light;
+    margin: .7rem .9rem;
+}
+.setlang :last-child{
+    margin-bottom: .3rem;
+}
+.setdiv>*{
+    cursor: pointer;
+    color: #9D9D9D;
+}
+.divider {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #F07B6A;
+    transform: translateY(-50%);
+}
+.profile-container{
+    align-items: center;
+    display: flex;
+    margin: .8rem .9rem;
+}
+.profile-container:last-child{
+    margin-bottom: .3rem;
+}
+.profile-container span{
+    font-family: Fixel Display Light;
+    margin-left: .6rem;
+}

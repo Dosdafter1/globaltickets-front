@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    align-items: stretch;
+    gap: 9rem;
+    padding: 0 1rem;
+}
+.home {
+    margin: 2rem 1rem;
+    margin-left: 5rem;
+}
+.navbar>ul a, .navbar>ul button {
+    display: flex;
+    margin: 2rem;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.navbar>ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;  
+    gap: 6rem;
+}
+.main-ul li {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.navs li {
+    margin-top: 0;
+}
+.navbar li>ul{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    display: flex;
+}
+.navs {
+    width:690px
+}
+.navbar a{
+    color: black;
+    width: fit-content;
+    padding: 1px;
+    height: 6vh;
+}
+.navbar a>span {
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
+.navbar a>svg>path {
+   fill: black;
+}
+
+.navbar button {
+    border: none;
+    background: none;
+}
+.navbar button>span {
+    font-family: Fixel Display;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.navbar a.active{
+    border-bottom: 3px solid #F07B6A;
+}
+header{
+    background-color: white;
+}
+
+

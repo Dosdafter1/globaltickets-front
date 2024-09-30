@@ -1,0 +1,34 @@
+.carriage-block{
+    cursor: pointer;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% auto 40%;
+    align-items: center;
+    border-radius: 6px;
+    padding: .2rem .5rem;
+    padding-top: .3rem;
+    width: 50px;
+    height: 40px;
+}
+.carriage-divider {
+    border-left: 1px solid white;
+    position: absolute;
+    height: 2.5rem;
+    margin: 0 .3rem;
+    top: 7%;
+    left: 43%;
+}
+.carriage-number {
+    font-family: Fixel Display Light;
+    text-align: end;
+}
+.select-carriage{
+    background-color: #F07B6A;
+    color: white;
+}
+.not-select-carriage{
+    background-color: #F5F5F5;
+}
+.not-select-carriage .carriage-number{
+    color: #F07B6A;
+}

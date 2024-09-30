@@ -1,0 +1,26 @@
+.filter-block{
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+}
+.filter-block button {
+    border: none;
+    display: flex;
+    font-family: Fixel Display;
+    padding: .8rem;
+    cursor: pointer;
+    color: #6F6F6F;
+}
+.filter-block svg>path{
+    fill:"#6F6F6F";
+}
+.arrow-block {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.arrow-block svg {
+    margin: .2rem .3rem;
+}
+.sort-active {
+    background-color: #909090;
+}

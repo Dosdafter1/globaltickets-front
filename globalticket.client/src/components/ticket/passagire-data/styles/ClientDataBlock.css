@@ -1,0 +1,110 @@
+.client-data-block>ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.ticket-send-data-block{
+    border: 1px solid #F07B6A;
+    border-radius: 11px;
+    margin-top: 1.5rem;
+    padding: .1rem 1.5rem;
+}
+.ticket-send-data-input-box{
+    width: 250px;
+    padding: 0;
+
+}
+.ticket-send-data-input-box input {
+    border: none;
+  font-family: Fixel Display Light;
+  font-weight: normal;
+  padding-left: 0;
+  border-radius: 0;
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  border-bottom: 2px solid #F07B6A;
+  outline: none;
+}
+.ticket-send-data-input-box input::placeholder {
+   color: #9D9D9D;
+   font-size: 14px;
+}
+.ticket-send-data-input-box label, .ticket-send-data-input-box p{
+    color: #6F6F6F;
+}
+.ticket-send-data-input-box p{
+    font-size: 14px;
+}
+.ticket-send-data-input-box h4{
+    font-family: Fixel Display Light;
+    font-weight: normal;
+    margin: 0;
+}
+.result-ticket-date-box p {
+    margin: 0;
+}
+.result-ticket-date-box {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.result-tricket-block {
+    position: sticky;
+    top:5%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 1rem;
+    width: 50%;
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+    border: 1px solid #F07B6A;
+    border-radius: 11px;
+}
+.div-divider{
+    border: 1px solid#F07B6A;
+}
+.result-tricket-block p{
+    margin: 0;
+}
+.promo-code {
+    cursor: text;
+    background-color: #FFE6E2;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    padding: .7rem;
+    
+}
+.promo-code input {
+    outline: none;
+    font-size: 16px;
+    border: none;
+    width: auto;
+    height: auto;
+}
+.promo-code input::placeholder{
+    background-color: #FFE6E2;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.data-button {
+    outline: none;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    background-color: #F07B6A;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    padding: .8rem;
+    font-size: 16px;
+}
+.data-button:disabled {
+    background-color: #FFE6E2;
+}
+.data-button p {
+    font-family: Fixel Display;
+    margin: 0;
+}

@@ -1,0 +1,61 @@
+.pay-private-block {
+    margin: 2rem 0;
+    padding-left: 25%;
+}
+.payment-data-block {
+    width: 60%;
+    border: 1px solid #ff7e68;
+    border-radius: 11px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.private-block {
+    position: relative;
+    display: flex;
+    background-color: #1e1e1e;
+    border-radius: 11px;
+    width: 62.5%;
+    padding: .2rem;
+    align-items: center;
+}
+.private-block img {
+    margin-left: 44%;
+}
+.pay-private-box a{
+    color: #7AB72B;
+    cursor: pointer;
+}
+.private-block p{
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    font-size: 20px;
+    font-family: Fixel Display Light;
+    margin: 0;
+    color: white;
+}
+.private-box {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pay-price-block {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+}
+.pay-price-block p {
+    margin: 0;
+}
+.pay-private-button{
+    cursor: pointer;
+    padding: 1.5rem 1rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 11px;
+    background-image: linear-gradient(90.49deg, #99D958 0.58%, #25B0B5 99.51%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: white;
+    width: 98%;
+    text-align: center;
+}

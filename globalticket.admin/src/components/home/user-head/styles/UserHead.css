@@ -1,0 +1,10 @@
+.user-head {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem 1.5rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.user-head h2 {
+    color: #F07B6A;
+    margin: 0;
+}

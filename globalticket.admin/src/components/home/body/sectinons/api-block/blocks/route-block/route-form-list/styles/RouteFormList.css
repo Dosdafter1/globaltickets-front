@@ -1,0 +1,43 @@
+.route-form-list {
+    overflow-y: scroll;
+    max-height: 350px;
+    height: 300px;
+    width: 100%;
+    border: 1px solid #f07b6a;
+}
+.route-form-list-element {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 25% 10%;
+    padding: 1rem;
+    border-bottom: 2px solid #f07b6a;
+    cursor: pointer;
+}
+.select-element {
+    background-color: #eee;
+}
+.not-select-element {
+    background-color: white;
+}
+.route-form-list-element p {
+    margin: 0;
+    margin-top: .5rem;
+    width: fit-content;
+    max-width: 65px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.route-form-list-element button {
+    cursor: pointer;
+    outline: none;
+    color: #f07b6a;
+    border: none;
+    border-radius: 11px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+.route-form-list-element button:hover{
+    color: white;
+    background-color: #f07b6a;
+}

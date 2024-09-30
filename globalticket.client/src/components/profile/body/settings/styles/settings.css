@@ -1,0 +1,344 @@
+
+.avatar-container{
+    display: flex;
+    width: 816px;
+    height: 94px;
+    top: 320px;
+    left: 511px;
+    margin: 20px 0;
+    gap: 0px;
+    border-radius: 15px ;
+    border: 2px ;
+    opacity: 0px;
+    border: 2px solid #F07B6A;
+}
+
+.avatar-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+    width: 51px;
+    height: 51px;
+    background-color: #F07B6A;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+
+.image-text{
+    align-items: center;
+    font-family: Fixel Display;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44.16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.avatar-title-text{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Fixel Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.08px;
+    font-weight: bold;
+}
+
+.avatar-load-text{
+    cursor: pointer;
+    font-family: Fixel Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.08px;
+    text-align: left;
+    color: #F07B6A;
+    font-weight: bolder;
+}
+
+.personal-data-container{
+    position: relative;
+    width: 816px;
+    height: 216px;
+    border-radius: 15px;
+    border: 2px;
+    opacity: 0px;
+    border: 2px solid #F07B6A;
+    
+}
+
+.personal-data-container input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('../../../../../image/s_grey.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 26px; 
+    height: 24px; 
+    cursor: pointer;
+    position: absolute;
+    right: 16%; 
+    top: 48%; 
+    transform: translateY(-50%);
+    
+}
+.personal-data-container input[type="date"]::-moz-calendar-picker-indicator {
+    background-image: url('../../../../../image/s_grey.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 26px; 
+    height: 24px; 
+    cursor: pointer;
+    position: absolute;
+    right: 16%; 
+    top: 48%; 
+    transform: translateY(-50%);
+}
+
+.title-text{
+    font-family: Fixel Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.12px;
+    text-align: left;
+    margin: 15px 25px;
+}
+
+
+:root {
+    --input-width: 125px;
+    --input-height: 46px;
+    --input-gap: 0px;
+    --input-border-radius: 9px;
+    --input-border: 1px solid #F07B6A;
+    --input-opacity: 0px;
+    --input-margin: 15px 25px;
+}
+  
+.input-genger, .input-fn, .input-birthday {
+    width: var(--input-width);
+    height: var(--input-height);
+    gap: var(--input-gap);
+    border-radius: var(--input-border-radius);
+    border: var(--input-border);
+    opacity: var(--input-opacity);
+    margin: var(--input-margin);
+}
+  
+.input-fn {
+    width: 201px;
+    margin: 0px;
+}
+
+.input-birthday{
+    width: 230px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.btn-save{
+    padding-top: .3rem;
+    cursor: pointer;
+    font-family: Fixel Display Light;
+    font-size: 18px;
+    width: 171px;
+    height: 41px;
+    margin: 10px 25px;
+    gap: 0px;
+    border: none;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #F07B6A;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.text-cancle{
+    display: flex;
+    align-items: center;
+}
+
+.contact-details-container{
+    width: 816px;
+    height: 138px;
+    border-radius: 15px ;
+    border: 2px;
+    border: 2px solid #F07B6A;
+    margin: 20px 0;
+}
+
+.text-email{
+    flex: 1;
+    font-family: Fixel Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.08px;
+    text-align: left;
+    color: #9D9D9D;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.input-tel-country{
+    width: 87px;
+    height: 46px;
+    border-radius: 9px 0px 0px 9px;
+    border: 1px 0px 0px 0px;
+}
+
+.input-tel{
+    width: 232px;
+    height: 46px;
+    border-radius: 0px 9px 9px 0px;
+    border: 1px 0px 0px 0px;
+    margin-right: 25px;
+}
+
+
+.change-pas-container{
+    width: 816px;
+    height: 224px;
+    border-radius: 15px;
+    border: 2px;
+    border: 2px solid #F07B6A;
+}
+
+.cumancen{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-password{
+    width: 219px;
+    height: 46px;
+    margin-left: 25px;
+    border-radius: 9px;
+    border: 1px;
+    border: 1px solid #F07B6A
+}
+
+
+
+.language-container{
+    margin: 20px 0;
+    width: 816px;
+    height: 154px;
+    border-radius: 15px;
+    border: 2px;
+    border: 2px solid #F07B6A;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.select-container {
+    position: relative;
+    width: 219px;
+    height: 46px;
+    margin: 5px 25px; 
+    overflow: hidden;
+}
+
+.select-language {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 9px 9px 0px 9px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #F07B6A; 
+    background-color: transparent; /* Прозорий фон */
+    padding: 0 0 0 15px;
+    font-family: Fixel Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.08px;
+    text-align: left;
+    color: #9D9D9D;
+    cursor: pointer;
+    appearance: none; /* Вимкнути стандартний вигляд */
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+}
+
+.select-arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+    color: #9D9D9D; 
+    pointer-events: none;
+}
+
+.subscription-container{
+    width: 814px;
+    height: 208px;
+    border-radius: 15px;
+    border: 2px;
+    border: 2px solid #F07B6A;
+    margin-bottom: 25px;
+}
+
+
+.toggle-switch {
+    position: relative;
+    display: inline-flex;
+    min-width: 39px;
+    height: 23px;
+    margin: 15px 10px 10px 25px;
+  }
+  
+  .toggle-switch input[type='checkbox'] {
+    display: none;
+  }
+  
+  .toggle-switch label {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #9D9D9D;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+  }
+  
+  .toggle-switch label:before {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: white;
+    top: 0.6px;
+    left: 1px;
+    transition: transform 0.4s;
+  }
+  
+  .toggle-switch input[type='checkbox']:checked + label {
+    background-color: #F07B6A; 
+  }
+  
+  .toggle-switch input[type='checkbox']:checked + label:before {
+    transform: translateX(15px);
+  }
+  
+  .confirm-text-container{
+    display: inline-flex;
+  }
+
+  

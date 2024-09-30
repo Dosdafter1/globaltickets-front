@@ -1,0 +1,43 @@
+.route-list-element {
+    padding: 1rem;
+    border-bottom: 1px solid salmon;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.route-list-element p {
+    font-weight: 100;
+}
+.route-list-element * {
+    overflow: hidden;
+}
+.route-list-element button{
+    width: 56.5px;
+    height: 56.5px;
+    padding: 1rem;
+    border-radius: 11px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+.edit-btn {
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+}
+.edit-btn:hover {
+    background-color: orange;
+    color: white;
+}
+.delete-btn{
+   
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}

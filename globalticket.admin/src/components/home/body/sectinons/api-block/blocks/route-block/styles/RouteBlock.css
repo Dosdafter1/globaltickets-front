@@ -1,0 +1,15 @@
+.route-block {
+    display: grid;
+    grid-template-columns: 55% 40%;
+}
+.route-block-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 11px;
+    background-color: #f07b6a;
+    color: white;
+    font-size: 24px;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}

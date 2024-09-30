@@ -1,0 +1,31 @@
+.route-form {
+    padding: 1rem 2.5rem;
+}
+.route-form input {
+    outline: none;
+    border: none;
+    width: 200px;
+    border-bottom: 2px solid #F07B6A;
+    font-size: 16px;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 0;
+    height: auto;
+    font-weight: 100;
+}
+.route-form input[type='submit'] {
+    background-color: #F07B6A;
+    color: white;
+    padding: 0;
+    padding: 1rem;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    width: 98%;
+    font-size: 24px;
+}
+.route-form-block {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: .5rem;
+}

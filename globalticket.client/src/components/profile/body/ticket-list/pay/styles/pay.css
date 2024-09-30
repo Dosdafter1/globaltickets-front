@@ -1,0 +1,185 @@
+.pay-box{
+    width: 1252px;
+    height: 707px;
+    border-radius: 15px;
+    border: 1px;
+    border: 1px solid #F07B6A;
+    box-sizing: border-box; 
+    padding: 28px;   
+}
+
+.title-main-text,
+.main-text,
+.card-text,
+.price-text,
+.title-main-text2,
+.footer-text{
+    font-family: Fixel Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    text-align: left;
+    margin: 0;
+}
+
+.main-text{
+    font-size: 14px;
+}
+
+
+
+.pay-info-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-box{
+    width: 1252px;
+    height: 707px;
+    border-radius: 15px;
+    box-sizing: border-box; 
+    padding: 28px;   
+}
+
+.select-box {
+    display: grid;
+    width: 1192px;
+    height: 81px;
+    border-radius: 15px;
+    margin-top: 15px;
+    align-items: center;
+    grid-template-columns: 3fr 1fr 1fr;
+    box-sizing: border-box; 
+    padding: 30px;
+    border: 1px solid #D2D7E4; 
+    box-shadow: 0px 4px 4px 0px #00000040;
+    align-content: center;
+}
+
+.select-box.active {
+    border-color: #F07B6A; /* Якщо select-box активний, має оранжевий бордер */
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 10px 0 30px;
+    cursor: pointer;
+    border: 1px solid #D2D7E4;
+}
+
+.radio.active {
+    border-color: #F07B6A;
+}
+
+.inner {
+    width: 14px;
+    height: 14px;
+    gap: 0px;
+    background: #F07B6A;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.radio.active .inner {
+    display: block;
+}
+
+.pay-box.selected .select-box {
+    border-color: #F07B6A;
+}
+
+
+.card-text,
+.price-text{
+    font-size: 16px;
+}
+
+.inside-box{
+    display: flex;
+}
+
+.price-text{
+    text-align: end;
+}
+
+.card-box{
+    width: 342px;
+    height: 225.15px;
+    border-radius: 15px;
+    background: linear-gradient(293.83deg, #000000 38.72%, #F07B6A 97.59%);
+    justify-content: space-around;
+    box-sizing: border-box; 
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.card-txt,
+.info-card-txt,
+.info-card-txt2{
+    font-family: Fixel Display;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
+.card-txt{
+    margin-top: 40px;
+    font-size: 24px;
+}
+.info-card-txt{
+    font-size: 16px;
+}
+.info-card-txt2{
+    font-size: 16px;
+    margin: 0;
+    text-align: start; 
+    margin-top: 30px;
+}
+
+
+.title-main-text2{
+    margin: 40px 0 30px 0;
+}
+
+.data-card{
+    display: flex;
+}
+
+
+.number-card-input,
+.date-card-input,
+.cvc-card-input{
+    width: 417px;
+    height: 57px;
+    border-radius: 9px;
+    border: 1px solid #F07B6A;
+}
+
+.date-card-input{
+    width: 244px;
+    margin: 20px 20px 20px 0;
+}
+
+.cvc-card-input{
+    width: 130px;
+}
+
+.footer-text{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #9D9D9D;
+}
+
+
+.btn-footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+    

@@ -1,0 +1,36 @@
+.tips-block{
+    position: relative;
+    
+    width: 100%;
+    height: fit-content;
+}
+.tips-block-tips1{
+    background-color: #F07B6AF5;
+    color: white;
+    font-size: 24px;
+}
+.tips-block-tips1 p {
+    margin: 0;
+    text-align: center;
+    max-width: 193.5px;
+}
+.tips-block>ul{
+    padding: 2rem 4rem;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.tips-block-tips1>ul{
+    gap: 5rem;
+    justify-content: center;
+}
+.tips-block-tips1 li>ul{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+.second-tips li {
+   margin: 0 2rem;
+   justify-content: center;
+}

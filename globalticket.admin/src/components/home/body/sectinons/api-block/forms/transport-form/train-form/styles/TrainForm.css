@@ -1,0 +1,38 @@
+.train-form-block{
+    display: flex;
+    gap: 1rem;
+}
+.train-form {
+    padding: 1.5rem 2rem;
+}
+.train-form input, .train-form select {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #F07B6A;
+    font-size: 16px;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 0;
+    height: auto;
+    font-weight: 100;
+}
+.train-form input {
+    width: 130px;
+}
+.train-form select {
+    padding: .78rem;
+    width: 180px;
+}
+.train-form input[type='submit'], .train-form button {
+    background-color: #F07B6A;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0;
+    padding: 1rem;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    width: 98%;
+    font-size: 24px;
+}

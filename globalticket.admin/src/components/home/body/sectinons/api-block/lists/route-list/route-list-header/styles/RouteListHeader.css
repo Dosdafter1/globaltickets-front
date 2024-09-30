@@ -1,0 +1,29 @@
+.route-list-header{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    border-bottom: 2px solid salmon;
+}
+.route-list-header input {
+    outline: none;
+    height: fit-content;
+    width: 300px;
+    padding: .2rem 1rem;
+    font-size: 16px;
+    border: 1px solid salmon;
+    border-radius: 0;
+    font-weight: 100;
+}
+.route-list-header a {
+    color: green;
+    background-color: white;
+    padding: .5rem 1rem;
+    border: 1px solid green;
+    border-radius: 11px;
+    width: fit-content;
+}
+.route-list-header a:hover {
+    color: white;
+    background-color: green;
+}

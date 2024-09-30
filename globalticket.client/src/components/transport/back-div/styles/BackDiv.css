@@ -1,0 +1,23 @@
+.back-div-block{
+    display: flex;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.back-text-box {
+    margin-left: 1.5rem;
+}
+.back-text-box p{
+    margin: 0;
+    margin-bottom: .15rem;
+}
+.up-p{
+    font-size: 24px;
+}
+.down-p{
+    font-size: 16px;
+    color: #9D9D9D;
+}
+.back-div-block svg{
+    margin-top: 15px;
+}

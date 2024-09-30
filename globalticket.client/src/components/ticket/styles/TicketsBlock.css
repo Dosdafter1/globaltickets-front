@@ -1,0 +1,95 @@
+.tickets-block {
+    padding: 1.5rem 3rem;
+    margin: 0;
+}
+.ticket {
+    display: grid;
+    padding: 2.5rem 1rem;
+    margin-top: .5rem;
+    grid-template-columns: 50% 48%;
+    gap: 1.5rem;
+    border: 1px solid #F07B6A;
+    border-radius: 15px;
+    max-width: 98%;
+}
+.ticket .time {
+    margin: 0;
+    font-size: 35px;
+    height: 15px;
+}
+.ticket .date {
+    font-family: Fixel Display Light;
+    color:#8c8c8c;
+    margin-top: 20px;
+}
+.date-time-box {
+    display: flex;
+    gap: 2rem;
+}
+.duration-box{
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 0.9rem;
+    height: fit-content;
+}
+.duration-box .line{
+    padding-top: 0.4rem;
+}
+.duration-box p {
+    font-size: small;
+    margin: 0;
+}
+.transport-box {
+    row-gap: 0;
+    padding-right: 0;
+}
+.transport-details{
+    display: flex;
+    font-size: 24px;
+    color: #F07B6A;
+}
+.transport-box p {
+    margin: 0;
+}
+.transport-box .transport-type {
+    font-size: 16px;
+    padding-top: 6px;
+    margin-left: .5rem;
+}
+.transport-box .transport-route {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+
+.tickets-list {
+    padding: 1rem;
+    border: 1px solid #F07B6A;
+    border-radius: 15px;
+}
+.load-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+.tickets-tips {
+    margin-top: 1.5rem;
+}
+.tickets-tips ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    gap: 42.5rem;
+    align-items: center;
+}
+.tickets-tips p{
+    margin: 0;
+    color: #6F6F6F;
+}

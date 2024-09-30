@@ -1,0 +1,51 @@
+.search-block {
+    position: static;
+    display: block;
+    height: fit-content;
+}
+.photo-back{
+    position: relative;
+    z-index: 0;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:cover;
+    width: 100%;
+    height: 40rem;
+    margin: 0;
+}
+.photo-back-air{
+    background-image: url('../../../../image/sky.png');
+}
+.photo-back-earth{
+    background-image: url('../../../../image/pexels-pixabay-63324\ 1.png');
+}
+.photo-back h1{
+    font-family: Fixel Display Light;
+    font-size: 69px;
+    z-index: 2;
+    position:  absolute;
+    color: white;
+    top:25%;
+    left: 5%;
+    letter-spacing: 3px;
+}
+.gradient-background{
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 45vh;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(240, 123, 106, 0.96) 47%, rgba(0, 0, 0, 0));
+    opacity: 0.55;
+}
+.search-line{
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+    top:50%;
+    width: fit-content;
+    height: fit-content;
+}
+

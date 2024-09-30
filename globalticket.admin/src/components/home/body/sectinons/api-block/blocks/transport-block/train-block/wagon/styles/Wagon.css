@@ -1,0 +1,39 @@
+.wagon {
+    padding: .7rem .9rem;
+    display: grid;
+    grid-template-columns: 50% 20% 20% 10%;
+    border-bottom: 1px solid salmon;
+    cursor: pointer;
+}
+.select-wagon {
+    background-color: #eee;
+}
+.not-select-wagon {
+    background-color: white;
+}
+.wagon p {
+    margin: 0;
+    margin-top: .7rem;
+    font-size: 13px;
+}
+.wagon button {
+    cursor: pointer;
+    outline: none;
+    color: #f07b6a;
+    border: none;
+    border-radius: 11px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+.wagon button:hover{
+    color: white;
+    background-color: #f07b6a;
+}
+.wagon-list {
+    border: 1px solid salmon;
+    overflow-y: scroll;
+    width: 93%;
+    height: 87%;
+    margin-top: 2rem;
+}

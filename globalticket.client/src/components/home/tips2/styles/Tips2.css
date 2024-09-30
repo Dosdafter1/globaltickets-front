@@ -1,0 +1,21 @@
+.tip-icon{
+    border: 1px solid #F07B6AF5;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+.second-tips{
+    margin-top: 50px;
+}
+
+.second-tips p{
+    padding: 0.5rem;
+    font-size: 18px;
+    color: #9D9D9D;
+    max-width: 250px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.second-tips>ul{
+    gap: 1rem;
+}

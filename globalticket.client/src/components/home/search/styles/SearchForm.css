@@ -1,0 +1,86 @@
+.search input{
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    height: 86px;
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+    font-family: Fixel Display Light;
+}
+.search{
+    border: 2px solid #F07B6A;
+    border-radius: 10px;
+    width: fit-content;
+    height: 80px;
+    overflow: hidden;
+    padding: 0;
+}
+.searchFrom{
+    margin-top: 10px;
+    position: relative;
+    width: fit-content;
+    height: 80px;
+}
+
+.search #beginPoint, .search #endPoint{
+    width: 360px;
+    border-right: 2px solid #F07B6A;
+}
+.date-picker{
+    cursor: pointer;
+    width: 230px;
+}
+.search input[type="submit"]{
+    z-index: 1;
+    width: 231px;
+    height: 84.5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 0;
+    
+    background-color: #F07B6A;
+    color:white;
+    cursor: pointer;
+}
+
+.search input.input-error {
+    color: red; 
+}
+.search input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('../../../../image/розклад.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 26px; 
+    height: 24px; 
+    cursor: pointer;
+    position: absolute;
+    right: 10%; 
+    top: 48%; 
+    transform: translateY(-50%);
+    
+  }
+  
+  /* Сховати іконку у Firefox */
+.search  input[type="date"]::-moz-calendar-picker-indicator {
+    background-image: url('../../../../image/розклад.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 26px; 
+    height: 24px; 
+    cursor: pointer;
+    position: absolute;
+    right: 31%; 
+    top: 6%; 
+    transform: translateY(-50%);
+}
+
+.icon-ta{
+    position: absolute;
+    left: 29.2%; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+

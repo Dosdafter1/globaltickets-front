@@ -1,0 +1,7 @@
+.home-body {
+    margin: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: 30% 68%;
+    gap: 2rem;
+    
+}

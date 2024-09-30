@@ -1,0 +1,14 @@
+.transport-list-header {
+    display: grid;
+    grid-template-columns: 10% 10% auto auto auto;
+    padding: .5rem 1rem;
+    gap: 1.5rem;
+}
+.transport-list-header a {
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+.transport-list-header .active {
+    color: salmon;
+}

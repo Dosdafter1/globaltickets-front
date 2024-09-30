@@ -1,0 +1,96 @@
+.search-air input{
+    
+    outline: none;
+    border: none;
+    border-radius: 0;
+    height: 86px;
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+    font-family: Fixel Display Light;
+}
+.search-air input::placeholder {
+    color: #bfbfc5;
+}
+.search-air{
+    border: 2px solid #F07B6A;
+    border-radius: 10px;
+    width: fit-content;
+    height: 80px;
+    overflow: hidden;
+    padding: 0;
+}
+.searchFrom{
+    margin-top: 10px;
+    position: relative;
+    width: fit-content;
+    height: 80px;
+}
+
+.search-air #beginPoint, .search-air #endPoint{
+    position: relative;
+    width: 280px;
+    border-right: 2px solid #F07B6A;
+}
+.date-picker-air{
+    position: relative;
+    cursor: pointer;
+    width: 140px;
+    border: none;
+    box-shadow: none;
+    border-right:2px solid #F07B6A;
+    border-radius: 0;
+    padding: 2rem 1rem;
+}
+.date-picker-air:focus, .date-picker-air:hover {
+    cursor: pointer;
+    border: none;
+    border-right:2px solid #F07B6A;
+}
+.search-air input[type="submit"]{
+    z-index: 1;
+    width: 231px;
+    height: 84.5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 0;
+    
+    background-color: #F07B6A;
+    color:white;
+    cursor: pointer;
+}
+
+.search-air input.input-error {
+    color: red; 
+}
+
+.icon{
+    position: absolute;
+    left: 23.2%; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.ant-picker-cell-selected .ant-picker-cell-inner {
+    background-color: #F07B6A !important;
+}
+.ant-picker-input input::placeholder {
+    color: #000000;
+}
+.ant-input-number-input {
+    font-size: 20px !important;
+    height: 80px !important;
+}
+.passengers-input {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    border-right:2px solid #F07B6A;
+    width: 160px;
+    height: 86px;
+}
+.passengers-input:focus, .passengers-input:hover {
+    border: transparent;
+}
+
+

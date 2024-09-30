@@ -1,0 +1,86 @@
+
+.price-box-avia,
+.avia-tixket-txt{
+    display: flex;
+    width: 1222px;
+    height: 126px;
+    border-radius: 15px; 
+    border: 1px ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F07B6A;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.tarif-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-txt,
+.title-price-txt,
+.road-time-txt,
+.time-arrive-txt,
+.road-ticket-txt
+.ticket-route-txt,
+.terminal-ticket-txt
+.price-ticket-txt
+.currenct-txt{
+    font-family: Fixel Display;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.title-price-txt{
+    margin: 4px 0 4px 0;
+}
+
+.price-txt,
+.ticket-route-txt{
+    font-size: 24px;
+    color: #F07B6A;
+    font-weight: 600;
+}
+
+.road-time-txt,
+.road-ticket-txt,
+.terminal-ticket-txt{
+    font-size: 16px;
+    color: #9D9D9D;
+}
+
+
+.avia-tixket-txt{
+    height: 213px;
+}
+
+.time-arrive-txt{
+    font-size: 24px;
+    margin: 0;
+}
+
+.road-ticket-txt{
+    font-size: 14px;
+}
+
+.ticket-route-txt{
+    font-weight: 500;
+    margin: 0;
+}
+
+.terminal-ticket-txt{
+    color: #F07B6A;
+}
+
+.price-ticket-txt,
+.currenct-txt{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.currenct-txt{
+    font-size: 20px;
+}
+

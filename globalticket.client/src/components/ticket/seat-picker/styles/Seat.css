@@ -1,0 +1,43 @@
+.seat {
+    font-family: Fixel Display Light;
+    cursor: pointer;
+    position: relative;
+    display: grid;
+    border-radius: 6px;
+    margin: .3rem;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .3rem;
+}
+
+.seat-even {
+    grid-template-rows: 30% 50% 3%;
+    width: 40px;
+    height: 50px;
+}
+
+.seat-noteven {
+    grid-template-rows: auto auto auto;
+    width: 40px;
+    height: 80px;
+}
+
+.seat-free {
+    background-color: #ffe6e2;
+}
+.seat-free svg>circle{
+    fill: #6F6F6F;
+}
+.seat-booked {
+    background-color: #F07B6AF5;
+    color: white;
+} 
+.seat-booked svg>circle{
+    fill: white;
+}  
+.seat-busy svg>circle{
+    fill: #6F6F6F;
+}
+/*  */

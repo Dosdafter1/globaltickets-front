@@ -1,0 +1,67 @@
+.auth-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5%;
+  padding-top: 1%;
+}
+
+.auth-card {  
+  width: fit-content;
+  margin: 0;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 46px 52px;
+  border: 3px solid #f07b6a;
+  position: relative; /* Додайте цей рядок для врахування псевдоелемента */
+  overflow: hidden; /* Додайте цей рядок для обрізання поза межами */
+}
+
+.forms-container, .buttons-container{
+  width: fit-content;
+}
+.forms-container{
+  margin-top: 5vh;
+}
+.buttons-container>button {
+  position: relative;
+  width: fit-content;
+  margin-right: 16px;
+  padding: 2vh 1px;
+  padding-bottom: 3.8vh;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight:bold;
+  box-shadow: none;
+}
+
+.buttons-container>button::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px; 
+  background-color: #f07b6a; 
+  bottom: 0;
+  left: 0;
+  transition: width 0.2s ease;
+}
+
+.buttons-container>button.active::after {
+  width: 0;
+}
+
+.buttons-container>button:hover {
+  background-color: #ffffff;
+}
+
+.buttons-container>button.active {
+  color: #333;
+}

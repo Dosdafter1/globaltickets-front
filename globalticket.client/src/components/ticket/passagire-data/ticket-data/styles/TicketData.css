@@ -1,0 +1,303 @@
+.ticket-data-block {
+  position: relative;
+  border: 1px solid #F07B6A;
+  border-radius: 11px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.ticket-data-block>p{
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+.ticket-data-block .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 4px;
+    margin: .5rem;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.text-end{
+  text-align: end;
+}
+.text-end span{
+  font-size: 10px;
+  vertical-align: top;
+}
+  
+  /* Hide the browser's default radio button */
+.ticket-data-block .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 50px;
+    padding-left: 0;
+}
+  
+  /* Create a custom radio button */
+.ticket-data-block .checkmark {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid #F07B6A;
+    border-radius: 50%;
+}
+  
+  /* On mouse-over, add a grey background color */
+.ticket-data-block .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+  /* When the radio button is checked, add a blue background */
+.ticket-data-block .container input:checked ~ .checkmark {
+    background-color: #ffa99d;
+    border: 1px solid #ffa99d;
+}
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.ticket-data-block .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the indicator (dot/circle) when checked */
+.ticket-data-block .container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the indicator (dot/circle) */
+.ticket-data-block .container .checkmark:after {
+       top: 6.5px;
+      left: 6.5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #F07B6A;
+}
+
+.radio-block {
+  width: 98%;
+  padding: .8rem;
+  background-color:  #F5F5F5;
+  border-radius: 11px;
+  height: 2.5rem;
+}
+.radio-block form{
+  position: relative;
+  display: grid;
+  grid-template-columns: 15% 15% 15% auto;
+}
+.radio-block>div{
+  height: fit-content;
+}
+.price-data-block{
+  color: #F07B6A;
+  font-family: Fixel Display;
+  font-size: 24px;
+}
+.price-data-block p {
+  margin: 0;
+  margin-top: .6rem;
+}
+.client-name-block{
+  padding: 0;
+  margin-top: 2rem;
+  width: 80%;
+  
+}
+.client-name-block-train ul{
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 1rem;
+}
+.client-name-block-bus ul{
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 40% 40% 30%;
+  gap: 1rem;
+}
+
+.client-name-block input {
+  border: none;
+  font-family: Fixel Display Light;
+  font-weight: normal;
+  padding-left: 0;
+  border-radius: 0;
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  border-bottom: 2px solid #F07B6A;
+  outline: none;
+}
+.client-name-block label{
+  display: block;
+  color: #6F6F6F;
+  font-family: Fixel Display Light;
+}
+.supplement-box{
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 11px;
+  color: #6F6F6F;
+  font-family: Fixel Display Light;
+  width: 215px;
+  background-color: #FFE6E2;
+  margin-top: 2.5rem;
+  
+}
+.supplement-box p {
+  margin: 0;
+}
+.supplement-box ul {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.supplement-box li {
+  display: flex;
+}
+
+.arrow {
+  left: 35%;
+  position: absolute;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.show-supplement-box{
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #F07B6A;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  padding-top: 3px;
+  font-family: Fixel Display Light;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox-checkmark {
+	border-radius: 6px;
+    border: 1px solid #F07B6A;
+  position: absolute;
+  top: 0;
+  left: 110%;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkbox-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkbox-checkmark {
+  background-color: #F07B6A;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkbox-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkbox-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox-checkmark-text-box {
+  width: 220px;
+  display: grid;
+  grid-template-columns: 60% 25%;
+}
+.checkbox-checkmark-text-box p {
+  margin: 0;
+}
+.suppliment-block{
+  z-index: 1;
+  position: absolute;
+  top: 78%;
+  background-color: white;
+  width: 220px;
+  height: fit-content;
+  padding: 1rem;
+  border: 1.5px solid #F07B6A;
+  border-radius: 11px;
+}
+.suppliment-block form {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+}
+
+.simple-ticket-data{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem 1.5rem;
+  background-color: #F5F5F5;
+  border-radius: 11px;
+  margin-bottom: .5rem;
+}

@@ -1,0 +1,65 @@
+.profile-navbar{
+    height: fit-content;
+    width: 336px;
+    border: 3px solid #F07B6A;
+    border-radius: 15px;
+    display: grid;
+    overflow: hidden;
+    position: sticky;
+    top: 10%;
+    margin-top: 1rem;
+}
+.profile-navbar>a{
+    display: grid;
+    cursor: pointer;
+    font-family: Fixel Display Light;
+    border: none;
+    padding: 0.5rem 2rem;
+    justify-items: flex-start;
+    text-align: start;
+    border-bottom: 3px solid #F07B6A;
+    grid-template-columns: 40px auto;
+    align-items: center; 
+    background-color: white;
+    color: #9D9D9D;
+}
+.profile-navbar svg{
+    fill: #9D9D9D;
+}
+.profile-navbar svg>circle{
+    fill: white;
+}
+
+.profile-navbar .active{
+    background-color: #F07B6A;
+    color: white;
+
+}
+.profile-navbar .active svg{
+    fill: white;
+}
+.profile-navbar .active svg>circle{
+    fill: #F07B6A;
+}
+
+
+
+
+.profile-navbar>a:last-child{
+    border: none;
+}
+
+.select-btn-text{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.select-btn-image{
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: auto;
+}
+
+

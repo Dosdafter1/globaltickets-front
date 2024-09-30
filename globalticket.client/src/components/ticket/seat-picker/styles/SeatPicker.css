@@ -1,0 +1,157 @@
+.seat-picker{
+    margin-left: 1.5rem;
+}
+.seat-picker-list{
+    list-style: none;
+}
+.seat-picker-list li {
+    margin-top: 1rem;
+}
+.state-block, .state-box, .even-box, .seat-price-box {
+    display: flex;
+    width: fit-content;
+}
+.seat-price-block {
+    display: grid;
+    grid-template-columns: 75% 20%;
+}
+.route-seat-block {
+    display: grid;
+    grid-template-columns: 15% 16% 51%;
+    gap: 3rem;
+}
+.even-box {
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.even-box h4, .even-box p, .carriage-text h2, .carriage-text p, .route-seat-block p {
+    margin: 0;
+}
+.carriage-text h2  {
+    font-family: Fixel Display Light;
+}
+.even-box-text p, .carriage-text p, .route-text span  {
+    color: #9D9D9D;
+}
+.even-box h4{
+    font-family: Fixel Display Light;
+}
+
+.state-block {
+    gap: 1.5rem;
+}
+.select-circle {
+    border: 1px solid #F07B6A;
+    background-color: #F07B6A;
+}
+.busy-circle {
+    border: 1px solid #9D9D9D;
+    background-color: white;
+}
+.free-circle {
+    border: 1px solid #FFA99D;
+    background-color: #FFA99D;
+}
+.state-circle {
+    width: 20px;
+    height: 20px;
+    
+}
+.seat-circle {
+    width: 36px;
+    height: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat-circle p {
+    margin: 0;
+    margin-top: .2rem;
+}
+.seat-circle,  .state-circle {
+    border-radius: 100%;
+    margin: 0;
+}
+.state-box p {
+    margin: 0;
+    margin-left: .5rem;
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+}
+.seat-field {
+    position: relative;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 2rem 6rem;
+}
+
+.seat-li {
+    margin-left: 1rem;
+}
+.state-tips {
+    display: flex;
+    gap: 12rem;
+  
+}
+
+.seat-block {
+    background-color: #F5F5F5;
+    color: #6F6F6F;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 11px;
+}
+.seat-block p {
+    font-family: Fixel Display Light;
+    margin: 0;
+}
+.seat-price-box p{
+    margin: 0;
+}
+.seat-price{
+    text-align: end;
+    margin-right: 2rem;
+}
+.seat-price span {
+    font-size: 10px;
+    vertical-align: top;
+}
+.seat-price-box button{
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #F07B6A;
+    color: white;
+    height: 45px;
+    width: 150px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    float: right;
+}
+.seat-price-box button:disabled{
+    background-color: #f07c6ab3;
+}
+.carriage-field{
+    display: flex;
+    gap: .3rem;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.seat-form {
+    display: flex;
+}
+.seat-form>div {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.seat-form input {
+    outline: none;
+}
+.seat-blocks-field {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+.wagon-form {
+    width: 97%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.wagon-form fieldset {
+    border-color: salmon;
+    padding: .5rem;
+    padding-left: 2.5rem;
+}
+.wagon-form legend {
+    color: salmon;
+}
+.wagon-form input, .wagon-form select {
+    margin-bottom: 1rem;
+    padding: .1rem;
+} 
+.wagon-form input[type='submit'] {
+    font-size: 16px;
+    padding: .2rem;
+}
+.select-box {
+    display: flex;
+    gap: 1rem;
+    
+}

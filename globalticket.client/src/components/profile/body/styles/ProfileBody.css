@@ -1,0 +1,35 @@
+.profile-body{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 1rem;
+    padding-left: 2.5rem;
+}
+.profile-menu{
+    padding: 1rem;
+}
+.profile-select-body{
+    padding: 1rem 2rem;
+    width: fit-content;
+    height: fit-content;
+}
+.home-profile-body{
+    width: 90%;
+    height: 40vh;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    row-gap: 0px;
+    margin-top: 10vh;
+}
+.home-profile-body p, .home-profile-body h1{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+.home-profile-body p {
+    
+}

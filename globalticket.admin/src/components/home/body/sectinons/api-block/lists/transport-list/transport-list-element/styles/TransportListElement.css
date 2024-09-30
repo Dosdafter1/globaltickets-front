@@ -1,0 +1,24 @@
+.transport-list-element {
+    padding: 1rem;
+    border-bottom: 1px solid salmon;
+    display: grid;
+    grid-template-columns: 40% 40% 10% 10%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.transport-list-element p {
+    font-weight: 100;
+}
+.transport-list-element * {
+    overflow: hidden;
+}
+.transport-list-element button{
+    width: 56.5px;
+    height: 56.5px;
+    padding: 1rem;
+    border-radius: 11px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}

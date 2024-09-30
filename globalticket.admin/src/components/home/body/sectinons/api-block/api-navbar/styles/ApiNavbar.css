@@ -1,0 +1,13 @@
+.api-navbar{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0rem 1rem;
+}
+.api-navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+.api-navbar .active {
+    color: #F07B6A;
+}
